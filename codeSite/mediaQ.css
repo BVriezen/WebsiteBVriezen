@@ -1,0 +1,223 @@
+
+@media only screen and (min-width: 1px){
+	
+	.hide{
+		margin-top: -10px;
+		margin-bottom: -21%;
+	}
+
+	.slofLinks{
+		margin-left: 12%;
+	}
+
+	.profiel{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+@media only screen and (min-width: 550px) {
+
+	.hide{
+		margin: 0 auto;
+		display: initial;
+		margin-bottom: -21%;
+	}
+
+	.profiel{
+		margin-bottom: 0px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.slofLinks{
+		margin-left: 12%;
+	}
+
+	.figure{
+		margin: 0 auto;
+		max-width: 700px;
+	}
+}
+
+@media only screen and (min-width: 750px){
+	.foto{
+		height: 500px;
+	}
+
+	.blok{
+		margin-top: 260px;
+		width: 190px;
+		height: 60px;
+		border-radius: 40px;
+	}
+
+	.blok>a:link{
+		font-size: 15px;
+	}
+
+	h4{
+		font-size: 60px;
+	}
+}
+
+@media only screen and (min-width: 900px){
+	.foto{
+		height: 700px;
+	}
+
+	.blok{
+		margin-top: 330px;
+	}
+}
+
+@media only screen and (min-width: 855px){
+	.containerCasus{
+		display: grid;
+		grid-template-columns: 420px 420px;
+		/*justify-content: center;*/
+	}
+
+	.beschrijvingCasus{
+		margin-top: 0px;
+		height: 264px;
+		margin: 0px;
+	}
+
+	.afbeelding{
+		margin: 0 auto;
+	}
+
+	.ruimteBoven{
+		margin-top: 6%;
+	}
+}
+
+@media only screen and (min-width: 780px){
+
+	.bellen{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		justify-content: space-between;
+	}
+
+	.mail{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		justify-content: space-between;
+	}
+
+	.mail1{
+		margin-left: -40px;
+		margin-top: 35%;
+	}
+
+	.bel{
+		margin-left: -40px;
+		margin-top: 35%;
+	}
+}
+
+@media only screen and (min-width: 830px){
+
+	.introductie{
+		display: grid;
+		grid-template-columns: 40% 60%;
+		justify-content: space-between;
+	}
+
+	.waardes{
+		display: grid;
+		grid-template-columns: 40% 60%;
+		justify-content: space-between;
+	}
+
+	.werkvloer{
+		display: grid;
+		grid-template-columns: 40% 60%;
+		justify-content: space-between;
+	}
+
+	.hide{
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		vertical-align: middle;
+	}
+
+	.boomOnder{
+		margin-top: 8%;
+	}
+
+	.lijn{
+		width: 246%;
+		margin-left: 2%
+	}
+
+	.ruimteBoven3{
+		margin-top: 8%;
+	}
+
+}
+
+@media only screen and (min-width: 1030px){
+
+	.boomOnder{
+		margin-top: 0%;
+	}
+
+	.introTekst{
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 1120px){
+
+	.ruimteBoven{
+		margin-top: 8%;
+	}
+
+	.bellen{
+		display: initial;
+	}
+
+	.mail{
+		display: initial;
+	}
+
+	.contactContainer{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		justify-content: space-between;
+	}
+
+	.mail1{
+		margin-top: 10px;
+		margin: 0 auto;
+	}
+
+	.bel{
+		margin-top: 10px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.containerCasus{
+		grid-template-columns: 410px 410px 410px;
+		justify-content: space-between;
+	}
+
+	.introTekst{
+		margin-top: 14%;
+	}
+
+	.ruimteBoven{
+		margin-top: 10%;
+	}
+
+	.ruimteBoven3{
+		margin-top: 10%;
+	}
+}

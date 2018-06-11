@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	background-color: #372447;
+	position: fixed;
+	width: 100%;
+	height: 59px;
+}
+
+h1{
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	font-family: Iowan Old Style;
+	font-weight: normal;
+	padding-top: 65px;
+	padding-bottom: 20px;
+}
+
+h3{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	font-family: Roboto;
+	font-weight: normal;
+	margin-bottom: 12px;
+	margin-top: 10px;
+}
+
+p{
+	font-size: 15px;
+	color: black;
+	font-family: Roboto;
+	font-weight: lighter;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.intro{
+	margin: 0 auto;
+	width: 400px;
+	margin-bottom: 60px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+	font-family: Raleway;
+	margin-top: 19px;
+	margin-left: 15px;
+	display: block;
+}
+
+a:hover{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+.visueel{
+	margin: 0 auto;
+	width: 400px;
+	height: 267px;
+}
+
+.hide{
+	display: none;
+}
+
+.eerste{
+	background-image: url("images/bezem1.png");
+}
+
+.tweede{
+	width: 400px;
+	height: 600px;
+	background-image: url("images/drank.png");
+}
+
+.derden{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/rug.png");
+}
+
+.vier{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/mok1.png");
+}
+
+.vijf{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/sinas1.png");
+}
+
+.zes{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/schuur1.png");
+}
+
+.tekst{
+	background-color: #F7F7F7;
+	width: 400px;
+	height: 267px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+/*Speciale opmaak voor fotos*/
+
+.hide{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 80%;
+}
+
+.tekstTwee{
+	height: 520px;
+	width: 350px;
+	margin: 0px;
+}
+
+.twee{
+	width: 400px;
+	height: 534px;
+	margin: 0px;
+}
+
+.bezem{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/bezem1.png");
+}
+
+.dak{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/dak.png");
+}
+
+/*Derde stuk voor fotos*/
+
+.hide2{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 90%;
+	margin-bottom: 80px;
+}
+
+.drie{
+	width: 933px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 534px;
+	margin: 0px;
+}
+
+.tekstDrie{
+	height: 520px;
+	width: 410px;
+	margin: 0px;
+}
+
+.bezem{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/bezem1.png");
+}
+
+.dak{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/dak.png");
+}
+
+.mand{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/mand.png");
+}
+
+.wand{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/wand.png");
+}
+
+/*Advertentie*/
+
+.mok1{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/mok1.png");
+}
+
+.mok2{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/mok2.png");
+}
+
+.final{
+	width: 400px;
+	height: 525px;
+	background-image: url("images/drank.png");
+}
+
+/*Licht*/
+
+.rug{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/rug.png");
+}
+
+.hiel{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/hiel.png");
+}
+
+.gedruk{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/gedruk.png");
+}
+
+.kromming{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/kromming.png");
+}
+
+/*sinas*/
+
+.sinas1{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/sinas1.png");
+}
+
+.sinas2{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/sinas2.png");
+}
+
+.sinas3{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/sinas3.png");
+}
+
+.sinas4{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/sinas4.png");
+}
+
+.schuur1{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/schuur1.png");
+}
+
+.schuur2{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/schuur2.png");
+}
+
+.schuur3{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/schuur3.png");
+}
+
+.schuur4{
+	width: 400px;
+	height: 267px;
+	background-image: url("images/schuur4.png");
+}

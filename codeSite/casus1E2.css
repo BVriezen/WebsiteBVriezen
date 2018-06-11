@@ -1,0 +1,167 @@
+/*media voor twee andere casussen query*/
+@media only screen and (min-width: 1px){
+	
+	.twee2{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.drie3{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.vijf5{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.zes6{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.acht8{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.negen9{
+		display: none;
+		animation: fadeIn 1s ease-out;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		transform: translateX(-10%);
+		opacity: 0.1;
+	}
+	100% {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+@media only screen and (min-width: 930px){
+
+	.een1{
+		display: none;
+	}
+
+	.twee2{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.vier4{
+		display: none;
+	}
+
+	.vijf5{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.seven7{
+		display: none;
+	}
+
+	.acht8{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	video{
+		width: 500px;
+		margin: 0px;
+	}
+
+	.tekst{
+		height: 298px;
+		margin: 0px;
+	}
+
+	.tweedeStuk{
+		margin-top: 80px;
+	}
+}
+
+@media only screen and (min-width: 1250px){
+	.twee2{
+		display: none;
+	}
+
+	.drie3{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	video{
+		width: 600px;
+	}
+
+	.tekst{
+		width: 500px;
+		height: 361px;
+	}
+}
+
+.reflectie{
+	/*background-color: #EB8938;*/
+	background-color: black;
+	width: 100%;
+}
+
+.reflectie>h3{
+	color: white;
+	padding-top: 10px;
+}
+
+.reflectie>p{
+	color: white;
+	padding-bottom: 20px;
+}
+
+.tweedeStuk{
+	margin-bottom: 50px;
+}
+
+#links{
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #EB8938;
+}
+
+#links2{
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #EB8938;
+}
+
+@media only screen and (min-width:  900px){
+	.reflectie>p{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1051px){
+	.reflectie>p{
+		width: 70%;
+	}
+}

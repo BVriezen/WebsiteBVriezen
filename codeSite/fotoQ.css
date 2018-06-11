@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1px){
+	.hide{
+		display: none;
+	}
+
+	.hide2{
+		display: none;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: translateX(-10%);
+		opacity: 0.1;
+	}
+	100% {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+.reflectie{
+	/*background-color: #EB8938;*/
+	background-color: black;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.reflectie>h3{
+	color: white;
+	padding-top: 10px;
+}
+
+.reflectie>p{
+	color: white;
+	padding-bottom: 20px;
+}
+
+@media only screen and (min-width:  900px){
+	.reflectie>p{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1051px){
+	.reflectie>p{
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 930px){
+	.show{
+		display: none;
+	}
+
+	.hide{
+		display: flex;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.ad{
+		flex-direction: row-reverse;
+	}
+
+	.margin{
+		margin: 0px;
+	}
+
+	.height{
+		height: 585px;
+	}
+
+	.height2{
+		height: 520px;
+	}
+
+	.sinas{
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 1250px){
+	.hide{
+		display: none;
+	}
+
+	.hide2{
+		display: flex;
+		animation: fadeIn 1s ease-out;
+	}
+
+	.reverse{
+		flex-direction: row-reverse;
+	}
+}

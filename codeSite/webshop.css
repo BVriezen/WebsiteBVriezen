@@ -1,0 +1,112 @@
+.ste1{
+	background-image: url("images/styleguide2.jpg");
+	width: 400px;
+	height: 692px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.ste2{
+	background-image: url("images/home2.jpg");
+	width: 400px;
+	height: 565px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.ste3{
+	background-image: url("images/payment.jpg");
+	width: 400px;
+	height: 565px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.reflectie{
+	/*background-color: #EB8938;*/
+	background-color: black;
+	width: 100%;
+}
+
+.reflectie>h3{
+	color: white;
+	padding-top: 10px;
+}
+
+.reflectie>p{
+	color: white;
+	padding-bottom: 20px;
+}
+
+.tweedeStuk{
+	margin-bottom: 80px;
+}
+
+.derdeStuk{
+	margin-bottom: 55px;
+}
+
+.t1{
+	height: 350px;
+}
+
+.extra{
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#extraLink{
+	margin: 0px;
+	color: red;
+	display: initial;
+}
+
+#extraLink:visited{
+	color: red;
+}
+
+@media only screen and (min-width:  900px){
+	.reflectie>p{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1051px){
+	.reflectie>p{
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 930px){
+	.ste1{
+		margin: 0px;
+	}
+
+	.ste2{
+		margin: 0px;
+	}
+
+	.ste3{
+		margin: 0px;
+	}
+
+	.t1{
+		height: 692px;
+	}
+
+	.t2{
+		height: 551px;
+	}
+
+	.t3{
+		height: 565px;
+	}
+
+	.derdeStuk{
+		margin-top: 80px;
+	}
+}
